@@ -28,7 +28,9 @@ add_icon () {
     if [[ $resolution -gt $icon_resolution ]]; then
       if ! [[ -a $output_file ]]; then
         status=${GREEN};
-        convert -monitor $layer1 -page +$((width-(icon_width+margin_bottom)))+$((height-(icon_height+margin_right))) $layer2 -layers merge $output_file;
+        convert -monitor $layer1 \
+                -page +$((width-(icon_width+margin_bottom)))+$((height-(icon_height+margin_right))) $layer2 \
+                -layers merge $output_file;
         echo -e "$status Picturicon: Processing completed successfully.";
       else
         status=${RED};
