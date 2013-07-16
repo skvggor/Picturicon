@@ -17,7 +17,6 @@ add_icon () {
   WHITE="\033[00;00m";
   GREEN="\033[00;92m";
 
-
   if [[ $layer1 && $layer2 && $output_file ]]; then
     width=`identify -format %w $layer1`;
     height=`identify -format %h $layer1`;
