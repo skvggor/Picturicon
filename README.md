@@ -1,4 +1,23 @@
 Picturicon
 ==========
 
-A shell script that adds icons to your avatar.
+A shell script that adds icon to your avatar.
+
+
+Author
+======
+
+Marcos Garcia [Marcker](https://github.com/marcker)
+
+
+Basic usage
+===========
+
+`./picturicon.sh avatar.jpg|png|gif|image_formats icon.jpg|png|gif|image_formats output_file.jpg|png|gif|image_formats`
+
+
+License
+=======
+
+GNU General Public Licence
+http://www.gnu.org/licenses/gpl.html
