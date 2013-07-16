@@ -13,7 +13,7 @@ Marcos Garcia [Marcker](https://github.com/marcker)
 Basic usage
 ===========
 
-`./picturicon.sh avatar.image_format icon.image_format output_file.image_format`
+`./picturicon.sh avatar.image_format icon.image_format [margin_bottom margin_right] output_file.image_format`
 
 
 License
